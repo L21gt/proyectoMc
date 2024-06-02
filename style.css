@@ -1,0 +1,117 @@
+/* header general container */
+ .header {
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-left: -10px;
+    padding: 0;
+    position: absolute;
+    display: block;
+}
+
+/*header general container*/
+.headerMainContainer {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    height: 71px;
+    justify-content: center;
+}
+
+/*Mc icon header div*/
+.mcHeaderIcon {
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 27px;
+    margin-right: 40px;
+    
+}
+/*Mc icon header image link */
+.mcHeaderIcon svg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General menus container, upper menus and lower menus div*/
+.headerMenusContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+}
+/*header upper menus div*/
+.headerMainMenus {
+    display: flex;
+}
+/*header upper menus ul style*/
+.headerMainMenus ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 11px;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+}
+/*header upper menus li items style*/
+.headerMainMenus li {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    padding-right: 9px;
+}
+
+/*header lower menu div style*/
+.headerSecondaryMenu {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+/*header lower menu ul style*/
+.headerSecondaryMenu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+}
+/*header lower menu li items style*/
+.headerSecondaryMenu li {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*los 50 icon */
+.headerSecondaryMenu svg {
+    height: 30px;
+    width: 30px;
+}
+
+/*los 50 icon style*/
+.los50 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*los 50 text style*/
+ .los50 .los50Text {
+    margin-top: 5px;
+ }
+
+ 
+
