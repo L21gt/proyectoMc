@@ -1,3 +1,31 @@
+/*linkFalsos.html style, pagina falsa para direccionar los links en index.html*/
+.containerLinks {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    border-radius: 15px;
+    background: #FFBC0D;
+}
+.generalContainerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.volver h2{
+    color: blue;
+    font-weight: 500;
+}
+
+/*general anchor style since I don't want to change style when links are used*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* header general container */
  .header {
     border-bottom: 1px solid lightgray;
@@ -107,7 +135,7 @@
 }
 
 /*los 50 icon style*/
-.los50 {
+.los50 a{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -162,4 +190,4 @@
     text-align: center;
  }
  
- 
+
