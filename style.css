@@ -41,22 +41,26 @@
 .headerMenusContainer {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 57%;
+    max-width: 800px;
     height: 100%;
     justify-content: center;
+    position: relative;
 }
 /*header upper menus div*/
 .headerMainMenus {
     display: flex;
+    position: relative;
 }
 /*header upper menus ul style*/
 .headerMainMenus ul{
+    position: relative;
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 800;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:sans-serif;
     padding: 0;
     align-items: center;
     width: 100%;
@@ -68,7 +72,7 @@
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
-    padding-right: 9px;
+    padding-right: 18px;
 }
 
 /*header lower menu div style*/
@@ -92,8 +96,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-right: 10px;
-    font-size: 11px;
+    padding-right: 20px;
+    font-size: 12px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /*los 50 icon */
@@ -113,5 +117,49 @@
     margin-top: 5px;
  }
 
- 
+ /*encuentra restaurante menu div*/
+ .encuentraRestaurante {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+ }
+ .encuentraRestauranteIcon {
+    padding-right: 10px;
+ }
+ .encuentraRestauranteIcon svg{
+    width: 17px;
+    height: 20px;
+ }
+ .encuentraRestauranteText {
+    font-size: 8px;
+    flex: 1;
+ }
+ .encuentraRestauranteText h2{
+    align-items: center;
+    font-size: 12px;
+    font-weight: 800;
+    font-family:sans-serif;
+ }
 
+ /*orderar button style*/
+ .ordenarButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .ordenarButton h2 {
+    border: 3px solid #FFBC0D;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #FFBC0D;
+    font-weight: 800;
+    font-family:sans-serif;
+    width: 100px;
+    text-align: center;
+ }
+ 
+ 
