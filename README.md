@@ -1,0 +1,1 @@
+This project is part of the HMTL fundamentals, 1st semester Galileo University. The target is to manually clone the main Website page of Mcdonalds Guatemala.
