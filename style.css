@@ -15,7 +15,17 @@
     align-items: center;
     margin-top: 10%;
 }
-.volver h2{
+.generalContainerLinks h1 {
+    margin-bottom: 0;
+}
+.generalContainerLinks h2 {
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+.volver h3{
+    padding-top: 20px;
     color: blue;
     font-weight: 500;
 }
