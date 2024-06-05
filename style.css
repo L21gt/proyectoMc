@@ -286,3 +286,88 @@ a{
     height: 100%;
     width: 100%;
 }
+
+/* Ordenar y programar un pedido section */
+.ordenarProgramarMainContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.ordenarProgramarContainer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    width: 95%;
+    max-width: 1216px;
+}
+/* Mas facil que chatear div */
+.ordenarSection {
+    width: 100%;
+}
+.ordenarSection img {
+    width: 100%;
+    max-width: 1216px;
+    max-height: 800px;
+}
+/*ordenar button inside Mas facil que chatear div*/
+.ordenarSecondaryButton {
+    display: flex;
+    position: relative;
+}
+.ordenarSecondaryButton h3 {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%, -50%);
+    background-color: #FFBC0D;
+    border-radius: 25px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 800;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Guarda, programa section div */
+.programarPedidoSection {
+    width: 100%;
+}
+.programarPedidoSection img{
+    width: 100%;
+    max-width: 1216px;
+    max-height: 800px;
+}
+/* programar un pedido button inside Guarda, programa div */
+.programarPedidoButton {
+    display: flex;
+    position: relative;
+}
+.programarPedidoButton h3 {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%, -50%);
+    background-color: #FFBC0D;
+    border-radius: 25px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 800;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
