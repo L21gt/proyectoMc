@@ -381,3 +381,74 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Hoy es un gran dia red banner section */
+.granDiaGeneralContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+/*red container*/
+.granDiaContainer {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 800px;
+    max-height: 308px;
+    background-color: #DC2626;
+}
+/* title container*/
+.granDiaTitle {
+    position: relative;
+    width: 75%;
+    height: 50%;
+    left: 10%;
+    top: 7%;
+    background-color: #DC2626;
+}
+.granDiaTitle h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 0;
+    background-color: #DC2626;
+}
+/*Contact icons section*/
+.contactIcons {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 35%;
+    left: 10%;
+    top: 3%;
+}
+.contactIcons ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50%;
+    align-items: baseline;
+}
+/*MC sonrie image section*/
+.granDiaContainer2 {
+    display: flex;
+    width: 95%;
+    max-width: 416px;
+    height: 308px;
+    align-items: center;
+    justify-content: center;
+    background-color: #DC2626;
+}
+.mcSonrieImage {
+    display: flex;
+    position: relative;
+    right: -5%;
+}
+.mcSonrieImage img {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+}
