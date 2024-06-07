@@ -385,22 +385,30 @@ a{
 .granDiaGeneralContainer {
     position: relative;
     display: flex;
-    justify-content: center;
     margin-top: 48px;
+    justify-content: center;
 }
-/*red container*/
+/* big red banner container */
+.granDiaContainerParent {
+    display: flex;
+    position: relative;
+    width: 95%;
+    justify-content: center;
+}
+/*red  sub-containers*/
 .granDiaContainer {
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 95%;
-    max-width: 800px;
+    max-width: 900px;
+    width: 90%;
     max-height: 308px;
     background-color: #DC2626;
 }
 /* title container*/
 .granDiaTitle {
     position: relative;
-    width: 75%;
+    width: 70%;
     height: 50%;
     left: 10%;
     top: 7%;
@@ -419,7 +427,7 @@ a{
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 75%;
+    width: 70%;
     height: 35%;
     left: 10%;
     top: 3%;
@@ -434,8 +442,8 @@ a{
 /*MC sonrie image section*/
 .granDiaContainer2 {
     display: flex;
-    width: 95%;
-    max-width: 416px;
+    width: 75%;
+    max-width: 316px;
     height: 308px;
     align-items: center;
     justify-content: center;
@@ -444,11 +452,101 @@ a{
 .mcSonrieImage {
     display: flex;
     position: relative;
-    right: -5%;
+    right: 5%;
 }
 .mcSonrieImage img {
     width: 100%;
     max-width: 200px;
     height: 100%;
     max-height: 200px;
+}
+
+/* FOOTER section*/
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.footerMainContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 1216px;
+    height: 205px;
+    border-top: 1px solid lightgray;
+    padding-top: 40px;
+}
+/*upper footer row*/
+.upperFooterRow {
+    display: flex;
+}
+.mcMesoIcon {
+    display: flex;
+    padding: 0 20px 0 0;
+}
+.orgullosamenteMc{
+    padding: 0 400px 0 10px;
+}
+.orgullosamenteMc h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/*social icons*/
+.socialIcons {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+.socialIcons ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.socialIcons img{
+    width: 30px;
+    height: 30px;
+}
+/*middle footer row*/
+.midFooterRow ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+.midFooterRow li {
+    position: relative;
+    padding: 0 10px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+.midFooterRow li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%;
+    width: 1px;
+    background-color: #000;
+}
+/*bottom footer row*/
+.bottomFooterRow h3 {
+    padding: 10px 0 0 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.bottomFooterRow h4 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0;
+    margin-top: 15px;
 }
