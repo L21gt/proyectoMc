@@ -116,6 +116,34 @@ a{
     padding-right: 18px;
 }
 
+
+/*Efecto hover subrayado*/
+.headerMainMenus ul li a {
+    text-decoration: none;
+    color: inherit; /* Mantener el color del texto según esté definido */
+    display: inline-block; /* Necesario para que el pseudo-elemento ::after funcione correctamente */
+    position: relative;
+}
+.headerMainMenus ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px; /* Altura de la línea de subrayado */
+    bottom: 0;
+    left: 0;
+    background-color: #FFBC0D; /* Color de la línea de subrayado */
+    transform: scaleX(0);
+    transform-origin: right; /* La animación comenzará desde la derecha */
+    transition: transform 0.3s ease-out;
+}
+
+.headerMainMenus ul li a:hover::after {
+    transform: scaleX(1); /* La línea de subrayado se expandirá a lo largo del elemento */
+    transform-origin: left; /* La línea se expandirá hacia la izquierda */
+}
+
+
+
 /*header lower menu div style*/
 .headerSecondaryMenu {
     padding: 0;
